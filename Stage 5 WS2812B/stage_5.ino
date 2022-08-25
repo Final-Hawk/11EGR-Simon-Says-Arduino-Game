@@ -2,7 +2,6 @@
 // Correct and Incorrect responses respectively acknowledged by the two animations developed in Stage 4.
 //  Responds to user input by illuminating a pressed button and sounding a corresponding tone for a specified duration
 // Creates outputs of light and sound.
-
 #include <FastLED.h>
 
 #define NUM_LEDS 13      /* The amount of pixels/leds you have */
