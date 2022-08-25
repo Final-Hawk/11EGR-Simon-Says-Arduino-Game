@@ -4,11 +4,11 @@
 // Creates outputs of light and sound.
 #include <FastLED.h>
 
-#define NUM_LEDS 13      /* The amount of pixels/leds you have */
-#define DATA_PIN 13     /* The pin your data line is connected to */
-#define LED_TYPE WS2812B /* I assume you have WS2812B leds, if not just change it to whatever you have */
-#define BRIGHTNESS 255   /* Control the brightness of your leds */
-#define SATURATION 255   /* Control the saturation of your leds */
+#define NUM_LEDS 13      /* # of pixels */
+#define DATA_PIN 13     /* The pin of data line */
+#define LED_TYPE WS2812B 
+#define BRIGHTNESS 255   
+#define SATURATION 255   
 
 CRGB leds[NUM_LEDS];
 
